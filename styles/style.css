@@ -255,6 +255,13 @@ main{
     .img-box2 {
         right: 60%;
     }
+    .habit-images{
+      width: 100%;
+      gap: 20px;
+    }
+    .habit-img img{
+      width: 100%;
+    }
    
 }
 

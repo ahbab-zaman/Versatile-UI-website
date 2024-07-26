@@ -231,7 +231,10 @@ main{
     .habit-images{
       width: 100%;
       grid-template-columns: repeat(2, 1fr);
-      gap: 20px;
+      gap: 30px;
+    }
+    .habit-img img{
+      width: 100%;
     }
 }
 

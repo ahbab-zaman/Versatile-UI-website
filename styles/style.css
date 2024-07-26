@@ -7,6 +7,7 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
+  scroll-behavior: smooth;
 }
 .font {
   font-family: "Inter", sans-serif;
@@ -27,6 +28,12 @@
   border: none;
   border-radius: 20px;
   background-color: rgb(230, 83, 60);
+}
+.common-description{
+  font-size: 15px;
+  font-weight: 400;
+  color:  rgba(255, 255, 255, 0.5);;
+  margin-bottom: 2rem;
 }
 
 /* header styles */
@@ -121,8 +128,8 @@ header {
   right: 5%;
 }
 .inner {
-  width: 20px;
-  height: 20px;
+  width: 47px;
+  height: 40px;
   background: rgb(230, 83, 60);
   border-radius: 50%;
 }
@@ -145,6 +152,43 @@ header {
 
 /* banner styles */
 /* header styles */
+
+
+/* main styles */
+
+/* habit styles */
+
+main{
+  background-color: #000000;
+}
+.habit{
+  text-align: center;
+  flex-direction: column;
+}
+.habit-title{
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+.habit-images{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+ .habit-img img{
+  border-radius: 50%;
+ }
+ .habit-img h4{
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 5px;
+ }
+
+/* habit styles */
+
+/* main styles */
 
 
 
@@ -174,10 +218,20 @@ header {
     }
     .img-box2 {
         right: 50%;
-        bottom: 40%;
+        bottom: 15%;
+        width: 40%;
     }
     .secondary-btn{
         margin-top: 10px;
+    }
+    .inner{
+      width: 50px;
+      height: 40px;
+    }
+    .habit-images{
+      width: 100%;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
     }
 }
 
@@ -198,6 +252,7 @@ header {
     .img-box2 {
         right: 60%;
     }
+   
 }
 
 /* CSS media queries ends here */

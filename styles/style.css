@@ -32,7 +32,7 @@
 .common-description{
   font-size: 15px;
   font-weight: 400;
-  color:  rgba(255, 255, 255, 0.5);;
+  color:  rgba(255, 255, 255, 0.5);
   margin-bottom: 2rem;
 }
 
@@ -238,6 +238,123 @@ main{
 
 /* training styles */
 
+/* calculator styles */
+
+.calculator{
+  flex-direction: column;
+  color: #ffffff;
+}
+.calculator-content{
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.calculator-container{
+  justify-content: center;
+  gap: 10rem;
+}
+.calculator-bg{
+  background-color: #222222;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.bmi-chart h2{
+  margin-bottom: 1rem;
+}
+table{
+  border-collapse: collapse;
+}
+table td, th{
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #656565;
+  font-size: 15px;
+  font-weight: 400;
+  color:  rgba(255, 255, 255, 0.5);;
+}
+table th{
+  color: white;
+  font-weight: 500;
+}
+.calculate-bmi{
+  width: 40%;
+}
+.calculate-bmi h2{
+  margin-bottom: 0.9rem;
+}
+.bmi-btns{
+  margin-bottom: 1rem;
+}
+.first-btn{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  margin: 8px;
+}
+.middle-btn{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  margin: 8px;
+}
+.factor-btn{
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 8px;
+}
+.first-btn .first-btn-1{
+  padding: 10px 60px 10px 0px;
+  color:#afafaf;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #383838;
+  border: none;
+  border-radius: 8px;
+}
+.first-btn .first-btn-2{
+  padding: 10px 60px 10px 0px;
+  color:#afafaf;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #383838;
+  border: none;
+  border-radius: 8px;
+}
+.middle-btn button{
+  padding: 10px 60px 10px 0px;
+  color:#afafaf;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #383838;
+  border: none;
+  border-radius: 8px;
+}
+.middle-btn select{
+  padding: 10px 60px 10px 0px;
+  color:#afafaf;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #383838;
+  border: none;
+  border-radius: 8px;
+}
+.factor-btn select{
+  padding: 10px 120px 10px 0px;
+  color:#afafaf;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #383838;
+  border: none;
+  border-radius: 8px;
+}
+.bmi-content{
+  margin: 8px;
+}
+.calculate-btn{
+  margin: 8px;
+}
+/* calculator styles */
+
 /* main styles */
 
 
@@ -258,6 +375,7 @@ main{
         flex-direction: column;
         width: 100%;
         margin: 1rem auto;
+        margin-bottom: 0px;
     }
     .banner-content{
         width: 80%;
@@ -276,7 +394,7 @@ main{
         margin-top: 10px;
     }
     .inner{
-      width: 50px;
+      width: 55px;
       height: 40px;
     }
     .habit-images{
@@ -296,6 +414,25 @@ main{
     .row-1, .row-2{
       grid-template-columns: 1fr;
     }
+    .calculator-container{
+      flex-direction: column;
+      gap: 5rem;
+    }
+    .bmi-chart table{
+      width: 100%;
+    }
+    .calculate-bmi{
+      width: 100%;
+    }
+    .bmi-content{
+     text-align: center;
+    }
+     .first-btn, .middle-btn, .factor-btn{
+      margin: 8px 0;
+     }
+     .factor-btn select{
+      padding: 10px 100px 10px 0px;
+     }
 }
 
 /* Medium devices */
@@ -304,6 +441,7 @@ main{
         flex-direction: column;
         width: 100%;
         margin: 1rem auto;
+        margin-bottom: 0px;
     }
     .banner-content{
         width: 80%;
@@ -322,7 +460,9 @@ main{
     .habit-img img{
       width: 100%;
     }
-   
+   .factor-btn select{
+    padding: 10px 80px 10px 0px;
+   }
 }
 
 /* CSS media queries ends here */

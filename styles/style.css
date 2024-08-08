@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Baloo+Bhaijaan+2:wght@400..800&display=swap');
 /* common codes */
 * {
   margin: 0;
@@ -10,7 +11,8 @@
   scroll-behavior: smooth;
 }
 .font {
-  font-family: "Inter", sans-serif;
+  font-family: "Baloo Bhaijaan 2", sans-serif;
+  font-weight: 600;
 }
 .container {
   width: 90%;
@@ -23,6 +25,7 @@
 .primary-btn {
   padding: 12px 30px;
   color: #fff;
+  font-family: "Baloo Bhaijaan 2", sans-serif;
   font-size: 18px;
   font-weight: 500;
   border: none;
@@ -39,7 +42,7 @@
 /* header styles */
 /* nav styles starts here */
 header {
-  background: linear-gradient(180deg, rgb(17, 17, 17), rgb(63, 60, 60) 100%);
+  background: linear-gradient(180deg, rgb(7, 7, 7), rgb(53, 51, 51), rgb(7, 7, 7) 100%);
 }
 .navbar {
   justify-content: space-between;
@@ -51,13 +54,13 @@ header {
   gap: 30px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 20px;
-  padding: 5px;
+  padding: 7px;
   color: #fff;
 }
 .home-btn {
   background-color: rgb(230, 83, 60);
-  padding: 3px 7px;
-  border-radius: 10px;
+  padding: 5px 7px;
+  border-radius: 20px;
 }
 .nav-logo {
   font-style: italic;
@@ -102,6 +105,7 @@ header {
   padding: 12px 30px;
   color: #fff;
   background-color: transparent;
+  font-family: "Baloo Bhaijaan 2", sans-serif;
   font-size: 18px;
   font-weight: 500;
   border: 1px solid #fff;
@@ -235,6 +239,7 @@ main {
 }
 
 /* training styles */
+
 
 /* calculator styles */
 
@@ -383,6 +388,7 @@ table th {
   color: #ffffff;
   top: 80%;
   left: 5%;
+  font-size: 1.2rem
 }
 .team-card p {
   position: absolute;
@@ -399,6 +405,29 @@ table th {
 }
 
 /* team styles */
+
+
+/* unique styles */
+
+.unique{
+  background-color: #222222;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+.unique-title{
+  font-size: 28px;
+}
+.unique-video video{
+  width: 100%;
+  border-radius: 1rem;
+}
+.unique-content{
+  color: #fff;
+}
+
+/* unique styles */
 
 /* main styles */
 
@@ -497,11 +526,14 @@ footer{
     width: 75%;
   }
   .run,
-  .footer-container {
+  .footer-container{
     flex-direction: column;
   }
   .run-content button {
     width: 100%;
+  }
+  .run{
+    padding: 1rem;
   }
   .row-1,
   .row-2,
@@ -529,6 +561,16 @@ footer{
   }
   .factor-btn select {
     padding: 10px 100px 10px 0px;
+  }
+  .unique{
+    flex-direction: column-reverse;
+    padding: 1rem;
+  }
+  .unique-content{
+    text-align: center;
+  }
+  .unique-content button{
+    width: 100%;
   }
   .footer-left, 
   .footer-middle,

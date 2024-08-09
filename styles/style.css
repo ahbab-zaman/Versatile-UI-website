@@ -53,13 +53,13 @@ header {
   align-items: center;
   gap: 30px;
   border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 20px;
-  padding: 7px;
+  border-radius: 35px;
+  padding: 10px;
   color: #fff;
 }
 .home-btn {
   background-color: rgb(230, 83, 60);
-  padding: 5px 7px;
+  padding: 5px 10px;
   border-radius: 20px;
 }
 .nav-logo {
@@ -133,7 +133,7 @@ header {
 }
 .inner {
   width: 47px;
-  height: 40px;
+  height: 42px;
   background: rgb(230, 83, 60);
   border-radius: 50%;
 }
@@ -515,7 +515,7 @@ footer{
   }
   .inner {
     width: 55px;
-    height: 35px;
+    height: 32px;
   }
   .habit-images {
     width: 100%;

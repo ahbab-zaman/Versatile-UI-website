@@ -204,6 +204,8 @@ main {
 .run-img img {
   width: 100%;
   border-radius: 2rem;
+  object-fit: none;
+  object-position: 70% 33%;
 }
 
 /* run styles */
@@ -534,6 +536,9 @@ footer{
   }
   .run{
     padding: 1rem;
+  }
+  .run-img img {
+    object-fit: contain;
   }
   .row-1,
   .row-2,

@@ -309,7 +309,7 @@ table th {
   margin: 8px;
 }
 .first-btn .first-btn-1 {
-  padding: 10px 60px 10px 0px;
+  padding: 10px 115px 10px 0px;
   color: #afafaf;
   font-size: 14px;
   font-weight: 500;
@@ -318,7 +318,7 @@ table th {
   border-radius: 8px;
 }
 .first-btn .first-btn-2 {
-  padding: 10px 60px 10px 0px;
+  padding: 10px 115px 10px 0px;
   color: #afafaf;
   font-size: 14px;
   font-weight: 500;
@@ -327,7 +327,7 @@ table th {
   border-radius: 8px;
 }
 .middle-btn button {
-  padding: 10px 60px 10px 0px;
+  padding: 10px 150px 10px 0px;
   color: #afafaf;
   font-size: 14px;
   font-weight: 500;
@@ -336,7 +336,7 @@ table th {
   border-radius: 8px;
 }
 .middle-btn select {
-  padding: 10px 60px 10px 0px;
+  padding: 10px 60px 10px 15px;
   color: #afafaf;
   font-size: 14px;
   font-weight: 500;
@@ -564,6 +564,15 @@ footer{
   .factor-btn {
     margin: 8px 0;
   }
+  .first-btn .first-btn-1{
+    padding: 10px 60px 10px 0px;
+  }
+  .first-btn .first-btn-2{
+    padding: 10px 60px 10px 0px;
+  }
+  .middle-btn button{
+    padding: 10px 60px 10px 0px;
+  }
   .factor-btn select {
     padding: 10px 100px 10px 0px;
   }
@@ -609,6 +618,15 @@ footer{
   }
   .habit-img img {
     width: 100%;
+  }
+  .first-btn .first-btn-1{
+    padding: 10px 60px 10px 0px;
+  }
+  .first-btn .first-btn-2{
+    padding: 10px 60px 10px 0px;
+  }
+  .middle-btn button{
+    padding: 10px 60px 10px 0px;
   }
   .factor-btn select {
     padding: 10px 80px 10px 0px;

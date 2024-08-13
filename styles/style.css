@@ -605,6 +605,7 @@ footer {
     margin-bottom: 10px;
   }
 }
+/* Extra small devices */
 @media screen and (min-width:220px) and (max-width:392px) {
   .factor-btn select{
     padding: 10px  55px 10px 0;
@@ -613,6 +614,7 @@ footer {
     padding: 0px 10px;
   }
 }
+/* Extra small devices */
 
 /* Medium devices */
 @media screen and (min-width: 576px) and (max-width: 992px) {

@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Baloo+Bhaijaan+2:wght@400..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Baloo+Bhaijaan+2:wght@400..800&display=swap");
 /* common codes */
 * {
   margin: 0;
@@ -42,7 +42,12 @@
 /* header styles */
 /* nav styles starts here */
 header {
-  background: linear-gradient(180deg, rgb(7, 7, 7), rgb(53, 51, 51), rgb(7, 7, 7) 100%);
+  background: linear-gradient(
+    180deg,
+    rgb(7, 7, 7),
+    rgb(53, 51, 51),
+    rgb(7, 7, 7) 100%
+  );
 }
 .navbar {
   justify-content: space-between;
@@ -131,12 +136,6 @@ header {
   top: 20%;
   right: 5%;
 }
-.inner {
-  width: 47px;
-  height: 42px;
-  background: rgb(230, 83, 60);
-  border-radius: 50%;
-}
 .img-box2 {
   width: 50%;
   padding: 15px 10px;
@@ -148,10 +147,17 @@ header {
   color: #fff;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 13px;
   position: absolute;
   bottom: 15%;
   right: 85%;
+}
+.img-box2 i {
+  font-size: 2.4rem;
+  color: rgb(199, 18, 18);
+  background-color: white;
+  border-radius: 50%;
+
 }
 
 /* banner styles */
@@ -241,7 +247,6 @@ main {
 }
 
 /* training styles */
-
 
 /* calculator styles */
 
@@ -345,7 +350,7 @@ table th {
   border-radius: 8px;
 }
 .factor-btn select {
-  padding: 10px 120px 10px 0px;
+  padding: 12px 120px 12px 0px;
   color: #afafaf;
   font-size: 14px;
   font-weight: 500;
@@ -390,7 +395,7 @@ table th {
   color: #ffffff;
   top: 80%;
   left: 5%;
-  font-size: 1.2rem
+  font-size: 1.2rem;
 }
 .team-card p {
   position: absolute;
@@ -408,24 +413,23 @@ table th {
 
 /* team styles */
 
-
 /* unique styles */
 
-.unique{
+.unique {
   background-color: #222222;
   gap: 2rem;
   align-items: center;
   justify-content: center;
   padding: 2rem;
 }
-.unique-title{
+.unique-title {
   font-size: 28px;
 }
-.unique-video video{
+.unique-video video {
   width: 100%;
   border-radius: 1rem;
 }
-.unique-content{
+.unique-content {
   color: #fff;
 }
 
@@ -433,41 +437,41 @@ table th {
 
 /* main styles */
 
-
 /* footer styles */
 
-footer{
+footer {
   background-color: #191919;
 }
-.footer-container{
+.footer-container {
   justify-content: space-around;
   align-items: center;
   color: #ffffff;
 }
-.footer-left{
+.footer-left {
   width: 30%;
 }
-.footer-left h1{
+.footer-left h1 {
   margin-bottom: 10px;
 }
-.footer-right, .footer-middle{
+.footer-right,
+.footer-middle {
   text-align: start;
 }
-.footer-right > h3{
+.footer-right > h3 {
   margin-bottom: 10px;
 }
-.footer-middle > h3{
+.footer-middle > h3 {
   margin-bottom: 10px;
 }
-.footer-right p{
+.footer-right p {
   color: #686868;
   margin-bottom: 5px;
 }
-.footer-middle p{
+.footer-middle p {
   color: #686868;
   margin-bottom: 5px;
 }
-.footer-hr{
+.footer-hr {
   width: 80%;
   margin: 1.5rem auto;
   border: 0.1px solid #686868;
@@ -476,7 +480,6 @@ footer{
   text-align: center;
   margin-bottom: 0;
   padding-bottom: 1rem;
-
 }
 
 /* footer styles */
@@ -503,6 +506,15 @@ footer{
     width: 80%;
     margin: 0 1rem;
   }
+  .banner-btns{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .banner-btns button{
+    padding: 8px 20px;
+    margin-top: 0;
+  }
   .banner-img {
     width: 100%;
   }
@@ -528,13 +540,13 @@ footer{
     width: 75%;
   }
   .run,
-  .footer-container{
+  .footer-container {
     flex-direction: column;
   }
   .run-content button {
     width: 100%;
   }
-  .run{
+  .run {
     padding: 1rem;
   }
   .run-img img {
@@ -564,32 +576,32 @@ footer{
   .factor-btn {
     margin: 8px 0;
   }
-  .first-btn .first-btn-1{
+  .first-btn .first-btn-1 {
     padding: 10px 60px 10px 0px;
   }
-  .first-btn .first-btn-2{
+  .first-btn .first-btn-2 {
     padding: 10px 60px 10px 0px;
   }
-  .middle-btn button{
+  .middle-btn button {
     padding: 10px 60px 10px 0px;
   }
   .factor-btn select {
     padding: 10px 100px 10px 0px;
   }
-  .unique{
+  .unique {
     flex-direction: column-reverse;
     padding: 1rem;
   }
-  .unique-content{
+  .unique-content {
     text-align: center;
   }
-  .unique-content button{
+  .unique-content button {
     width: 100%;
   }
-  .footer-left, 
+  .footer-left,
   .footer-middle,
-  .footer-right{
-    width: 70%; 
+  .footer-right {
+    width: 70%;
     margin-bottom: 10px;
   }
 }
@@ -619,13 +631,13 @@ footer{
   .habit-img img {
     width: 100%;
   }
-  .first-btn .first-btn-1{
+  .first-btn .first-btn-1 {
     padding: 10px 60px 10px 0px;
   }
-  .first-btn .first-btn-2{
+  .first-btn .first-btn-2 {
     padding: 10px 60px 10px 0px;
   }
-  .middle-btn button{
+  .middle-btn button {
     padding: 10px 60px 10px 0px;
   }
   .factor-btn select {
